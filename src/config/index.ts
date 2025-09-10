@@ -73,9 +73,9 @@ export const SITE_CONTENT: SiteContent = {
       image: "/kapechat.png",
     },
     {
-      name: "sentiIMDB",
+      name: "senti-IMDB",
       summary: "A sentiment analyzer using NLP for IMDB Movie Reviews.",
-      linkSource: "https://github.com/jcyalung/sentiIMDB",
+      linkSource: "https://github.com/jcyalung/senti-IMDB",
       image: "/senti.png",
     },
     {
