@@ -86,8 +86,8 @@ export const SITE_CONTENT: SiteContent = {
     },
   ],
   skills: {
-    languages:"Python, Java, Javascript, C++, SQL, R, MATLAB, PowerScript, Batch, TypeScript",
-    frameworks:"JUnit, Git, GitHub, Arduino, MongoDB, Firestore, scikit-learn, biopython, Scrum, Jira, FastAPI, Next, Express, Astro, Fastify, Jupyter, PyTorch, Supabase, Docker, Nginx",
+    languages:"Python, Java, JavaScript, C++, SQL, R, MATLAB, PowerScript, Batch, TypeScript, HTML, CSS",
+    frameworks:"JUnit, Git, GitHub, Arduino, MongoDB, Firestore, scikit-learn, biopython, Scrum, Jira, FastAPI, Next, Vite, React, Requests, Tailwind, Express, Astro, Fastify, Jupyter, PyTorch, Pandas, MongoDB, MySQL, SQLite, Supabase, Docker, Nginx, Figma",
     interests:"agile development, cloud computing, bioinformatics, computational biology, AI/ML, education, badminton, basketball",
   },
   about: {
