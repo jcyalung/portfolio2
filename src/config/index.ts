@@ -69,7 +69,7 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "Kape Chat",
       summary: "Award winning solution for a professional mentorship platform.",
-      linkSource: "https://github.com/immois/astro-zen",
+      linkSource: "https://github.com/Jollibuilders/FIP_Project",
       image: "/kapechat.png",
     },
     {
