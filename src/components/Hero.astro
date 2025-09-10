@@ -1,8 +1,10 @@
 ---
 import type { HeroProps } from "@types";
+import { Image } from "astro:assets";
+import Email from "@icons/email.svg";
 type Props = HeroProps;
 
-const { name, specialty, summary, email } = Astro.props;
+const { name, specialty, summary, email, linkedin, github } = Astro.props;
 ---
 
 <section class="py-24 md:py-32" id="#hero">
@@ -20,8 +22,21 @@ const { name, specialty, summary, email } = Astro.props;
     {summary}
   </p>
 
-  <a
-    class="inline-block rounded-full bg-primary px-8 py-5 text-sm leading-5 font-medium text-[#fff]"
-    href={`mailto:${email}`}>Get in Touch</a
-  >
+  <h3 class="mb-1.5 font-serif text-2xl font-semibold text-white">
+          Let's Connect
+  </h3>
+  <div class="flex space-x-6 items-left my-3">
+          <a href={github} target="_blank" 
+              class="text-gray-400 hover:text-white transition-colors hover:scale-105 transform duration-200">
+            a
+          </a>
+          <a href={linkedin} target="_blank" 
+            class="text-gray-400 hover:text-white transition-colors hover:scale-105 transform duration-200">
+            a
+          </a>
+          <a href={email} target="_blank" rel="noreferrer" 
+          class="text-gray-400  underline hover:text-white transition-colors hover:scale-105 transform duration-200">
+          <Email class="w-10 h-10 text-gray-500 underline"/>  
+        </a>
+        </div>
 </section>

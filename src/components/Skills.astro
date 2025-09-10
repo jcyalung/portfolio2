@@ -1,0 +1,34 @@
+---
+import Section from "./Section.astro";
+import type { SkillsProps } from "@types";
+type Props = SkillsProps;
+
+const {languages, frameworks, interests} = Astro.props;
+---
+
+<Section text="Skills" href="skills">
+    <div class="languages">
+        <h4 class="mb-0.5 font-serif text-2xl font-medium text-primary">
+            Languages
+        </h4>
+        <p class="relative mb-3 pl-8 text-lg text-neutral before:absolute before:top-1 before:left-0">
+            {languages}
+        </p>
+    </div>
+    <div class="frameworks">
+        <h4 class="mb-0.5 font-serif text-2xl font-medium text-primary">
+            frameworks
+        </h4>
+        <p class="relative mb-3 pl-8 text-lg text-neutral before:absolute before:top-1 before:left-0">
+            {frameworks}
+        </p>
+    </div>
+    <div class="interests">
+        <h4 class="mb-0.5 font-serif text-2xl font-medium text-primary">
+            Interests
+        </h4>
+        <p class="relative mb-3 pl-8 text-lg text-neutral before:absolute before:top-1 before:left-0">
+            {interests}
+        </p>
+    </div>
+</Section>

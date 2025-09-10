@@ -1,97 +1,105 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "jcyalung",
+  author: "Joshua Yalung",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Computer Science undergraduate based in Newark, CA. I specialize in Agile software development, computational biology, and machine learning/artificial intelligence. Check out my website!",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/josh-small.png",
   navLinks: [
-    { text: "Experience", href: "#experience" },
-    { text: "Projects", href: "#projects" },
-    { text: "About", href: "#about" },
+    { text: "experience", href: "#experience" },
+    { text: "projects", href: "#projects" },
+    { text: "skills", href: "#skills" },
+    { text: "about", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/jcyal/" },
+    { text: "Github", href: "https://github.com/jcyalung" },
+    { text: "Email", href: "mailto:jyalung1@uci.edu" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
 };
 
 export const SITE_CONTENT: SiteContent = {
-  hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+  hero: { 
+    name: "Joshua Yalung",
+    specialty: "Software Engineer/Researcher",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Computer Science undergraduate based in Newark, CA. I specialize in Agile software development, computational biology, and machine learning/artificial intelligence.",
+    email: "jyalung1@uci.edu",
+    linkedin: "https://www.linkedin.com/in/jcyal/",
+    github: "https://github.com/jcyalung",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Hitachi Vantara",
+      position: "Software Engineer Intern",
+      startDate: "Aug 2024",
+      endDate: "Present",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Created an educational dashboard with Microsoft PowerBI and Azure to generate data summaries on employee training and hours logged, optimizing application performance by 32% and enhancing reporting access, increasing insight retrieval 2x faster.",
+        "Developed a C++ script to generate training paths based on employee's career path, using data structures such as decision trees to auto-generate training paths, cutting manual planning time by 13%. The application is currently being utilized to manage all Hitachi Vantara employees (10k).",
+        "I am returning this fall and joining the Services team, fine-tuning LLMs as support agents for Hitachi's storage platforms and educational services.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "FUSION at UCI",
+      position: "Project Manager",
+      startDate: "July 2025",
+      endDate: "Present",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
-      ],
-    },
+        "I am the project manager for FUSION at UCI, working with a team of 4 developers and 1 designer to create a digital study tracking application for an organization of 300 members. As the project manager, I lead sprint planning, managing 40+ GitHub tasks with 100% on-time completion.",
+        "I also trained developers and designers on frameworks such as Next.JS, GitHub, and Figma through documentation and videos, reducing onboarding time by 50% and boosting productivity and collaboration.",
+      ]
+      },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+      company: "Stanford University",
+      position: "Website Developer",
+      startDate: "June 2025",
+      endDate: "Present",
+      summary: [
+        "I led development for The NOURISH Project, where I streamlined web workflows by introducing a digital asset system (DAS) and content management system (CMS). I also ran training sessions that helped teams manage, reuse, and publish assets more efficiently — boosting available server storage by 40% and accelerating development by 80%.",
+        "I authored a 30-page document detailing step-by-step processes to add content to the website for members to use. I also wrote Javascript code to allow members to automatically render PDFs and images on the website, increasing website traffic by 56% and user satisfaction by 34%.",
+      ],
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
+      name: "Kape Chat",
+      summary: "Award winning solution for a professional mentorship platform.",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      image: "/kapechat.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      name: "sentiIMDB",
+      summary: "A sentiment analyzer using NLP for IMDB Movie Reviews.",
+      linkSource: "https://github.com/jcyalung/sentiIMDB",
+      image: "/senti.png",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "AntEDU",
+      summary: "A course planning/scheduling chatbot service for UC Irvine students.",
+      linkSource: "https://github.com/jcyalung",
+      image: "/anteater.png",
     },
   ],
+  skills: {
+    languages:"Python, Java, Javascript, C++, SQL, R, MATLAB, PowerScript, Batch, TypeScript",
+    frameworks:"JUnit, Git, GitHub, Arduino, MongoDB, Firestore, scikit-learn, biopython, Scrum, Jira, FastAPI, Next, Express, Astro, Fastify, Jupyter, PyTorch, Supabase, Docker, Nginx",
+    interests:"agile development, cloud computing, bioinformatics, computational biology, AI/ML, education, badminton, basketball",
+  },
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      Hi! My name is Joshua Yalung, an aspiring software engineer studying Computer Science at UC Irvine. I am currently the Academics Director for FUSION at UCI and a website developer for Stanford University.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      I'm proficient in agile software development, computational biology, full stack, AI and ML, and more. I'm also experienced in cooking. Current interests include the human genome project and HCM solutions.
+
+      This fall I am at Hitachi Vantara in Santa Clara, joining the Services team.
+      My projects include artificial intelligence and machine learning applications, as well as logging and tracking solutions for organizations.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/josh-big.png",
   },
 };
 
