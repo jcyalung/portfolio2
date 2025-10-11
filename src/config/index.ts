@@ -18,8 +18,8 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Github", href: "https://github.com/jcyalung" },
     { text: "Email", href: "mailto:jyalung1@uci.edu" },
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: "/",
+  canonicalURL: "https://jcyalung.com",
 };
 
 export const SITE_CONTENT: SiteContent = {
@@ -73,9 +73,9 @@ export const SITE_CONTENT: SiteContent = {
       image: "/fu-stamps.png",
     },
     {
-      name: "sentiIMDB",
+      name: "senti-IMDB",
       summary: "A sentiment analyzer using NLP for IMDB Movie Reviews.",
-      linkSource: "https://github.com/jcyalung/sentiIMDB",
+      linkSource: "https://github.com/jcyalung/senti-IMDB",
       image: "/senti.png",
     },
     {
