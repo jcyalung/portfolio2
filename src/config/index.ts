@@ -67,10 +67,10 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
-      name: "Kape Chat",
-      summary: "Award winning solution for a professional mentorship platform.",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/kapechat.png",
+      name: "Fu-Stamps",
+      summary: "Premier solution for stamp card and attendance logging.",
+      linkSource: "https://github.com/jcyalung/fu-stamps",
+      image: "/fu-stamps.png",
     },
     {
       name: "sentiIMDB",
@@ -88,7 +88,7 @@ export const SITE_CONTENT: SiteContent = {
   skills: {
     languages:"Python, Java, Javascript, C++, SQL, R, MATLAB, PowerScript, Batch, TypeScript",
     frameworks:"JUnit, Git, GitHub, Arduino, MongoDB, Firestore, scikit-learn, biopython, Scrum, Jira, FastAPI, Next, Express, Astro, Fastify, Jupyter, PyTorch, Supabase, Docker, Nginx",
-    interests:"agile development, cloud computing, bioinformatics, computational biology, AI/ML, education, badminton, basketball",
+    interests:"agile development, cloud computing, medical embedded systems, bioinformatics, computational biology, AI/ML, education, badminton, basketball",
   },
   about: {
     description: `
