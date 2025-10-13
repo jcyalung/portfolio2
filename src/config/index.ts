@@ -4,7 +4,7 @@ export const SITE_CONFIG: SiteConfig = {
   title: "jcyalung",
   author: "Joshua Yalung",
   description:
-    "Computer Science undergraduate based in Newark, CA. I specialize in Agile software development, computational biology, and machine learning/artificial intelligence. Check out my website!",
+    "Computer Science undergraduate based in Newark, CA. I specialize in agile software development, medical embedded software, computational biology, and machine learning/artificial intelligence. Check out my website!",
   lang: "en",
   siteLogo: "/josh-small.png",
   navLinks: [
@@ -94,7 +94,7 @@ export const SITE_CONTENT: SiteContent = {
     description: `
       Hi! My name is Joshua Yalung, an aspiring software engineer studying Computer Science at UC Irvine. I am currently the Academics Director for FUSION at UCI and a website developer for Stanford University.
 
-      I'm proficient in agile software development, computational biology, full stack, AI and ML, and more. I'm also experienced in cooking. Current interests include the human genome project and HCM solutions.
+      I'm proficient in agile software development, computational biology, full stack, AI and ML, and more. I'm also experienced in cooking. Current interests include the human genome project, HCM solutions, and medical embedded software.
 
       This fall I am at Hitachi Vantara in Santa Clara, joining the Services team.
       My projects include artificial intelligence and machine learning applications, as well as logging and tracking solutions for organizations.
