@@ -38,17 +38,7 @@ export const SITE_CONTENT: SiteContent = {
       position: "Software Engineer Intern",
       startDate: "Incoming",
       summary: [
-        "Incoming this summer 2026 for the Digital Health Software Team.",
-      ],
-    },
-    {
-      company: "Hitachi Vantara",
-      position: "Software Engineer Intern",
-      startDate: "Aug 2024",
-      endDate: "Aug 2025",
-      summary: [
-        "Created an educational dashboard with Microsoft PowerBI and Azure to generate data summaries on employee training and hours logged, optimizing application performance by 32% and enhancing reporting access, increasing insight retrieval 2x faster.",
-        "Developed a C++ script to generate training paths based on employee's career path, using data structures such as decision trees to auto-generate training paths, cutting manual planning time by 13%. The application is currently being utilized to manage all Hitachi Vantara employees (10k).",
+        "Incoming for summer 2026, under the Digital Health Software team.",
       ],
     },
     {
@@ -61,6 +51,16 @@ export const SITE_CONTENT: SiteContent = {
         "I also trained developers and designers on frameworks such as Next.JS, GitHub, and Figma through documentation and videos, reducing onboarding time by 50% and boosting productivity and collaboration.",
       ]
       },
+    {
+      company: "Hitachi Vantara",
+      position: "Software Engineer Intern",
+      startDate: "Aug 2024",
+      endDate: "Aug 2025",
+      summary: [
+        "Created an educational dashboard with Microsoft PowerBI and Azure to generate data summaries on employee training and hours logged, optimizing application performance by 32% and enhancing reporting access, increasing insight retrieval 2x faster.",
+        "Developed a C++ script to generate training paths based on employee's career path, using data structures such as decision trees to auto-generate training paths, cutting manual planning time by 13%. The application is currently being utilized to manage all Hitachi Vantara employees (10k).",
+      ],
+    },
     
   ],
   projects: [
