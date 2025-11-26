@@ -29,7 +29,7 @@ export interface ExperienceProps {
   company: string;
   position: string;
   startDate: string;
-  endDate: string;
+  endDate?: string;
   summary: string | string[];
 }
 
