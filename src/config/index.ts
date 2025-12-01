@@ -25,7 +25,7 @@ export const SITE_CONFIG: SiteConfig = {
 export const SITE_CONTENT: SiteContent = {
   hero: { 
     name: "Joshua Yalung",
-    specialty: "Health Tech Software Engineer",
+    specialty: "Medical/Health Tech Software Engineer",
     summary:
       "Computer Science undergraduate based in Newark, CA. I specialize in digital health software, ERP, and machine learning/artificial intelligence.",
     email: "jyalung1@uci.edu",
@@ -38,7 +38,7 @@ export const SITE_CONTENT: SiteContent = {
       position: "Software Engineer Intern",
       startDate: "Incoming",
       summary: [
-        "Incoming for summer 2026, under the Digital Health Software team.",
+        "Incoming summer 2026 under the Digital Health Software team.",
       ],
     },
     {
@@ -90,11 +90,10 @@ export const SITE_CONTENT: SiteContent = {
   },
   about: {
     description: `
-      Hi! My name is Joshua Yalung, an aspiring software engineer studying Computer Science at UC Irvine. I am currently the Academics Director for FUSION at UCI and a website developer for Stanford University.
+      Hi! My name is Joshua Yalung, an aspiring software engineer studying Computer Science at UC Irvine. I am currently the Academics Director for FUSION at UCI. Last fall I was at Hitachi Vantara working under the Services team.
+      I'm proficient in agile software development, computational biology, full stack, AI and ML, and more. I also love cooking. Current interests include the human genome project, HCM solutions, and medical embedded software.
 
-      I'm proficient in agile software development, computational biology, full stack, AI and ML, and more. I'm also experienced in cooking. Current interests include the human genome project, HCM solutions, and medical embedded software.
-
-      This fall I am at Hitachi Vantara in Santa Clara, joining the Services team.
+      This summer I am at Alcon in Fort Worth, Texas, joining the Digital Health Software team.
       My projects include artificial intelligence and machine learning applications, as well as logging and tracking solutions for organizations.
     `,
     image: "/josh-big.png",
